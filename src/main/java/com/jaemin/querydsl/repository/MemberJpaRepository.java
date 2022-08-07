@@ -5,7 +5,6 @@ import com.jaemin.querydsl.dto.MemberTeamDto;
 import com.jaemin.querydsl.dto.QMemberTeamDto;
 import com.jaemin.querydsl.entity.Member;
 import com.querydsl.core.BooleanBuilder;
-import com.querydsl.core.types.Predicate;
 import com.querydsl.core.types.dsl.BooleanExpression;
 import com.querydsl.jpa.impl.JPAQueryFactory;
 import lombok.RequiredArgsConstructor;
