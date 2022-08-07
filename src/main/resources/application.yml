@@ -1,4 +1,7 @@
 spring:
+  config:
+    activate:
+      on-profile: local
   datasource:
     url: jdbc:h2:tcp://localhost/~/querydsl
     username: sa
@@ -12,6 +15,7 @@ spring:
       hibernate:
         format_sql: true
         use_sql_comments: true
+    open-in-view: false
 
 logging:
   level:

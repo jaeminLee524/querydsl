@@ -8,7 +8,6 @@ import com.querydsl.core.Tuple;
 import com.querydsl.core.types.dsl.CaseBuilder;
 import com.querydsl.core.types.dsl.Expressions;
 import com.querydsl.core.types.dsl.Wildcard;
-import com.querydsl.jpa.JPAExpressions;
 import com.querydsl.jpa.impl.JPAQueryFactory;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -23,7 +22,7 @@ import java.util.List;
 
 import static com.jaemin.querydsl.entity.QMember.member;
 import static com.jaemin.querydsl.entity.QTeam.team;
-import static com.querydsl.jpa.JPAExpressions.*;
+import static com.querydsl.jpa.JPAExpressions.select;
 import static org.assertj.core.api.Assertions.assertThat;
 
 @Transactional
